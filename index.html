@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Babuuuu ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         SCREEN 1 — WELCOME
+    ========================== -->
+
+    <section id="welcome" class="screen">
+
+        <div class="welcome-card">
+
+            <div class="heart">❤️</div>
+
+            <h1>Helloooo mah babuuuuuuu ❤️</h1>
+
+            <p>
+                I made something special just for you...
+            </p>
+
+            <p class="cute-text">
+                Sooo... will you open it? 🥹🤍
+            </p>
+
+            <button onclick="startStory()">
+                Open My Surprise 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 2 — OUR STORY
+    ========================== -->
+
+    <section id="beginning" class="screen hidden">
+
+        <div class="story-card">
+
+            <div class="big-icon">🫶🏻</div>
+
+            <h2>Our Little Story ❤️</h2>
+
+            <p class="date">
+                06 • 03 • 2025
+            </p>
+
+            <p>
+                Chinnu...
+            </p>
+
+            <p>
+                Ondu dina... ondu date...
+                adu nam ibbara life alli
+                eshtu special aagutte anta
+                aaga nanage gothiralilla. 🥹
+            </p>
+
+            <p>
+                But somehow, that day became
+                the beginning of <b>us</b>. ❤️
+            </p>
+
+            <p>
+                And today, when I look back,
+                I'm just really happy that
+                I found you.
+            </p>
+
+            <p class="highlight">
+                Ninna jothe iruva prati ondu moment-u
+                nanage tumba special. 🤍
+            </p>
+
+            <button onclick="showMemories()">
+                Our Memories 📸
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 3 — MEMORIES
+    ========================== -->
+
+    <section id="memories" class="screen hidden">
+
+        <div class="memory-card">
+
+            <div class="big-icon">
+                📸
+            </div>
+
+            <h2>Our Memories ❤️</h2>
+
+            <p>
+                Some pictures...
+                some feelings...
+                and one very special person. 🤍
+            </p>
+
+            <div class="photo-container">
+
+                <img
+                    id="memoryPhoto"
+                    src="images/memory1.jpg"
+                    alt="Our memory"
+                >
+
+            </div>
+
+            <h3 id="memoryTitle">
+                My Favourite Person ❤️
+            </h3>
+
+            <p id="memoryText">
+                Ee photo nodidaga nanage
+                ondu thing anisutte...
+                "How did I get this lucky?" 🥹❤️
+            </p>
+
+            <div class="memory-buttons">
+
+                <button onclick="previousMemory()">
+                    ←
+                </button>
+
+                <span id="memoryNumber">
+                    1 / 3
+                </span>
+
+                <button onclick="nextMemory()">
+                    →
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 4 — EXAM SUPPORT
+    ========================== -->
+
+    <section id="examSupport" class="screen hidden">
+
+        <div class="exam-card">
+
+            <div class="medicine-icon">
+                💊
+            </div>
+
+            <h2>
+                For My Doctor 🤍
+            </h2>
+
+            <p class="exam-date">
+                Your 1st Year End Exams
+            </p>
+
+            <p>
+                Yashumaa...
+                tomorrow inda exams start aagutte.
+            </p>
+
+            <p>
+                I know you've worked hard for this.
+                Tumba kastapattu odidya,
+                late night study madidya,
+                and somehow you kept going.
+            </p>
+
+            <h3>
+                So now... believe in yourself. 🫂❤️
+            </h3>
+
+            <p>
+                yella exams bagge onde sala think madbeda.
+                Just take <b>one exam at a time.</b>
+            </p>
+
+            <p>
+                Calm aagi exam bari.
+                Ninge gottirodanna confident aagi bari.
+                And most importantly...
+                <b>don't doubt yourself.</b>
+            </p>
+
+            <p class="support-message">
+                No matter what happens,
+                <br>
+                <b>I am ALWAYS proud of you. ❤️</b>
+            </p>
+
+            <p class="love-line">
+                I love youuu sooo muchhhh, Chinnu. 🥹❤️
+            </p>
+
+            <button onclick="openLetter()">
+                One More Thing 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 5 — LOVE LETTER
+    ========================== -->
+
+    <section id="letter" class="screen hidden">
+
+        <div class="letter-card">
+
+            <div class="big-icon">
+                💌
+            </div>
+
+            <h2>
+                For You, Darling ❤️
+            </h2>
+
+            <p id="letterText"></p>
+
+            <p class="signature">
+                Always yours,<br>
+                ❤️
+            </p>
+
+            <button onclick="showFinal()">
+                I Have One Last Surprise ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 6 — FINAL
+    ========================== -->
+
+    <section id="final" class="screen hidden">
+
+        <div class="final-card">
+
+            <div class="final-hearts">
+                ❤️ ✨ ❤️
+            </div>
+
+            <h1>
+                Yashumaa ❤️
+            </h1>
+
+            <h2>
+                My Doctor 🤍
+            </h2>
+
+            <p>
+                Whatever happens in your exams...
+            </p>
+
+            <p>
+                Whatever marks you get...
+            </p>
+
+            <p>
+                Whatever result comes...
+            </p>
+
+            <div class="final-message">
+
+                <p>
+                    <b>
+                        I will always be proud of you. ❤️
+                    </b>
+                </p>
+
+                <p>
+                    I love youuu sooo muchhhh. 🥹❤️
+                </p>
+
+                <p>
+                    Now go show those exams
+                    what my Doctor can do. 😌💊❤️
+                </p>
+
+            </div>
+
+            <div class="floating-hearts">
+                ❤️ 🤍 ❤️ 🤍 ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

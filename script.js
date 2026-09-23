@@ -39,7 +39,7 @@ function showMemories() {
 const memories = [
 
     {
-        photo: "images/memory1.jpg",
+        photo: "memory1.jpg",
 
         title: "My Favourite Person ❤️",
 
@@ -48,7 +48,7 @@ const memories = [
     },
 
     {
-        photo: "images/memory2.jpg",
+        photo: "memory2.jpg",
 
         title: "My Cutest Chinnu 🥹🤍",
 
@@ -57,7 +57,7 @@ const memories = [
     },
 
     {
-        photo: "images/memory3.jpg",
+        photo: "memory3.jpg",
 
         title: "Always Believe In Yourself 🌸",
 
